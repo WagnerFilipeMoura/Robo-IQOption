@@ -1,0 +1,13 @@
+# Iniciar Script
+python3 exemplo.py
+
+# Instalar Pacotes de Terceiros
+python3 -m pip install -U NOME DO PACOTE
+
+python3 -m pip install -U python-dateutil
+python3 -m pip install -U schedule
+
+# Gerar executável
+pyinstaller --windowed Principal.py
+
+get_async_order(ID)
